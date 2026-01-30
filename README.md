@@ -1,5 +1,4 @@
-# OneNet — MATLAB Demo for Learned ADMM Reconstruction
-
+# OneNet — MATLAB version of One Network
 ## Overview
 
 **Project:** OneNet — A simple MATLAB demo of a learned ADMM-style reconstruction using a small CNN projection network.
