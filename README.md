@@ -8,7 +8,6 @@ This repository provides a MATLAB implementation inspired by the paper:
 > J. H. Rick Chang et al., arXiv:1703.09912
 
 The project implements a **learned projection (proximal) network embedded inside an ADMM solver**, following the framework proposed in the paper. A single neural network is trained to act as a **universal signal prior** that can solve multiple inverse problems without retraining.
-The PDF file in the repo is the paper that is the primary referecne for our work.
 ---
 
 ## Overview
