@@ -19,7 +19,7 @@ $$y = Ax + n$$
 
 Where:
 - `x` → unknown clean image
-- `A` → linear degradation operator
+- `A` → linear operator
 - `y` → observed measurement
 - `n` → noise
 
@@ -407,5 +407,6 @@ It follows the philosophy of:
 > **One network for many inverse problems**
 
 as proposed in the original paper.
+
 
 
