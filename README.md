@@ -98,7 +98,6 @@ This implementation is a simplified version of the framework in the paper.
 | Paper Component | This Repo |
 |----------------|-----------|
 | Projection Net P | CNN |
-| Classifier D | Not implemented |
 | Adversarial Training | Simplified |
 | Proximal Learning | Direct MSE training |
 | Nonconvex ADMM | Unrolled ADMM |
@@ -407,6 +406,7 @@ It follows the philosophy of:
 > **One network for many inverse problems**
 
 as proposed in the original paper.
+
 
 
 
