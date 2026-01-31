@@ -46,9 +46,4 @@ The default configuration (`[config.m](config.m)`) is very small (28x28 images, 
 - Increase `cfg.numEpochs` and `cfg.batchSize` in `[config.m](config.m)` for real training (defaults are kept tiny for quick iteration).
 - The ADMM loop uses a simple quadratic `x`-update for demonstration. Replace with problem-specific solvers if needed.
 
-**Next steps / ideas**
-- Add mini-batching to `trainModel` and vectorize training loops for speed.
-- Replace `digitTrain4DArrayData` with a larger dataset and adjust `cfg.imageSize` accordingly.
-- Add saving/loading for trained networks (use `save` / `load` on `net` objects).
 
-If you want, I can: run a quick training session with the current defaults and save the trained network, or add a short example script that runs end-to-end and saves outputs. Which would you like next?
