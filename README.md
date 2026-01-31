@@ -1,4 +1,4 @@
-```markdown
+
 # OneNet (MATLAB)
 ### Learned Deep Projection Network for Generic Linear Inverse Problems
 
@@ -134,7 +134,7 @@ This implementation is a simplified version of the framework in the paper.
 
 ```matlab
 addpath(genpath(pwd));
-```
+
 
 ### 2. Run the Main Pipeline
 
@@ -407,4 +407,5 @@ It follows the philosophy of:
 > **One network for many inverse problems**
 
 as proposed in the original paper.
+
 
