@@ -1,4 +1,4 @@
-# 📘 OneNet (MATLAB)
+#  OneNet (MATLAB)
 ### Learned Deep Projection Network for Generic Linear Inverse Problems
 
 This repository provides a MATLAB implementation inspired by the paper:
@@ -10,7 +10,7 @@ The project implements a **learned projection (proximal) network embedded inside
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Many image restoration tasks can be modeled as:
 
@@ -40,7 +40,7 @@ These problems are often **ill-posed**, meaning multiple solutions exist. This p
 
 ---
 
-## 🧠 Core Idea (From the Paper)
+##  Core Idea (From the Paper)
 
 Traditional approaches:
 
@@ -67,7 +67,7 @@ Instead of designing φ, we learn this operator using a CNN.
 
 ---
 
-## ⚙️ Requirements
+##  Requirements
 
 ### Software
 
@@ -85,9 +85,10 @@ Instead of designing φ, we learn this operator using a CNN.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Add Repository to Path
 
 ```matlab
 addpath(genpath(pwd));
+
